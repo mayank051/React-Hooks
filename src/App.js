@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import CounterTwo from './components/useReducer/CounterTwo';
-import DataFetching from './components/useEffect/DataFetching';
-import ComponentC from './components/useContext/ComponentC';
-import ClassContext from './classContext';
+import UseReducerGlobalCount from './useReducerGlobalCount'
+import DataFetching from './components/useReducer/DataFetching'
 function App() {
   return (
     <div className="App">
-      <ClassContext/>
+      <DataFetching/>
     </div>
   );
 }
